@@ -135,7 +135,7 @@ df_colum_27$sent<-rownames(df_colum_27)
 
 ## UI function
 
-ui <- navbarPage("AnÃ¡lisis de obras",
+shinyUI <- navbarPage("AnÃ¡lisis de obras",
                  tabPanel("VisualizaciÃ³n",fluidPage(theme = shinytheme("flatly")),
                           tags$head(
                             tags$style(HTML(".shiny-output-error-validation{color: red;}"))),
