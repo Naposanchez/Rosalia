@@ -5,7 +5,7 @@ rm(list=ls(all=TRUE),envir=globalenv())
 cat("\014")	
 
 
-pacotes = c("shiny", "shinythemes", "shinyjs", "plotly", "shinycssloaders","tidyverse","shinyWidgets",
+pacotes = c("shiny", "shinyjs", "plotly", "shinycssloaders","tidyverse","shinyWidgets",
             "scales", "knitr", "kableExtra", "ggfortify","FNN","readxl", "gridExtra", "ggplot2")
 
 
