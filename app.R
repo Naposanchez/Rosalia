@@ -266,6 +266,6 @@ server <- function(input, output) ({
   })
 })
 
-shinyApp(ui,server)
+shinyApp(ui = ui, server = server)
 
 
