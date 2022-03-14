@@ -5,7 +5,7 @@ rm(list=ls(all=TRUE),envir=globalenv())
 cat("\014")	
 
 
-pacotes = c("shiny", "shinydashboard", "shinythemes", "shinyapps", "shinyjs", "plotly", "shinycssloaders","tidyverse","shinyWidgets",
+pacotes = c("shiny", "shinythemes", "shinyjs", "plotly", "shinycssloaders","tidyverse","shinyWidgets",
             "scales", "knitr", "kableExtra", "ggfortify","FNN","readxl", "gridExtra", "ggplot2")
 
 
@@ -22,7 +22,7 @@ library(gridExtra)
 library(plotly)
 library(plot3D)
 library(rgl)
-
+library(shiny)
 
 data10 <- readRDS("pal_pag_ruinas.rds")
 
